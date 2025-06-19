@@ -1,0 +1,11 @@
+student,assignment,submission status
+Chinemerem,Shell Navigation,not submitted
+Chiagoziem,Git,submitted
+Divine,Shell Navigation,not submitted
+Anissa,Shell Basics,submitted
+Wesley,Git,submitted
+Sylvia,Shell Navigation,not submitted
+Preston,Shell Basics,not submitted
+Miguel,Git,not submitted
+Leslie,Shell Navigation,not submitted
+Christopher,Shell Basics,not submitted

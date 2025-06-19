@@ -12,7 +12,6 @@ cat > "$baseDir/config/config.env" <<EOL
 # Configuration
 ASSIGNMENT="Shell Navigation"
 DAYS_REMAINING="2"
-
 EOL
 
 # Create submissions.txt inwith 10 entries inside it
@@ -24,7 +23,7 @@ Divine,Shell Navigation,not submitted
 Anissa,Shell Basics,submitted
 Wesley,Git,submitted
 Sylvia,Shell Navigation,not submitted
-Preston,Shell Basics,submitted
+Preston,Shell Basics,not submitted
 Miguel,Git,not submitted
 Leslie,Shell Navigation,not submitted
 Christopher,Shell Basics,not submitted
@@ -34,7 +33,7 @@ EOL
 cat > "$baseDir/modules/functions.sh" <<'EOL'
 check_submissions() {
     file=$1
-    echo "Students who have not submitted $ASSIGNMENT:"
+    echo "Reminder: Students who have not submitted $ASSIGNMENT:"
     awk -F',' -v assignment="$ASSIGNMENT" '$2==assignment && $3=="not submitted" {print $1}' "$file"
 }
 EOL
