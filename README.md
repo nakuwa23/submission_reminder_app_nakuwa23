@@ -1,7 +1,8 @@
-#submission_reminder_application
+#Submission Reminder Application
+
 So, this is a basic shell script project meant to help you track on when students turn in their work. It's using simple text files, organized folders, and shell commands, displaying students who still need to submit their work, within the appropriate sub-modules.
 
-#What This App Is Meant To Do
+#What This App Is Meant To Do:
 
 a) It asks the user to set up an app folder, named after them.
 
