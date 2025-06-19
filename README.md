@@ -53,6 +53,7 @@ Output: This will display a list of students who have not submitted the assignme
 Command to execute: bash copilot_shell_script.sh
 
 Output: 
+
 a)	It will prompt you to enter a new assignment name (e.g., "Git or Shell Basics").
 
 b)	It automatically updates the config file.
@@ -61,6 +62,7 @@ c)	Then, it re-runs the app to show updated results.
 
 
 Requirements Met
+
 a)	Creation of the directory structure is automated
 
 b)	Assignment logic works as expected
